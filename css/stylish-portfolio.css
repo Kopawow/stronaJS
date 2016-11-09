@@ -236,13 +236,18 @@ hr.small {
 .map {
     height: 500px;
     width: 48%;
-    float: left;
     margin: 1%;
+    float: left;
 }
 
 @media(max-width:768px) {
     .map {
         height: 75%;
+        float: none;
+        width: 100%;
+    }
+    #contact2 {
+        margin-top: 100px;
     }
 }
 
@@ -265,7 +270,8 @@ footer {
 }
 
 .address {
-    display: inline-block;
+    text-align: center;
+    position: relative;
 }
 
 .contactData {
